@@ -154,78 +154,8 @@ These aren't decorative. Each one opens a pre-filled issue on this repo. Fill it
 <summary>&nbsp;<code>/dev</code> &nbsp;— what's plugged in</summary>
 <br>
 
-```
+```text
 /dev/curiosity      → primary input device, cannot be unmounted
 /dev/build-loop     → idea in, repository out
 /dev/null           → where the 48th identical dashboard clone goes
 /dev/comfort-zone   → device not found
-```
-
-</details>
-
-<details>
-<summary>&nbsp;<code>/etc/principles</code> &nbsp;— how I decide things</summary>
-<br>
-
-```
-build the weird version first
-make the demo undeniable
-hide complexity, not capability
-if AI is involved, give it a real job
-tests are part of the product story
-if it breaks, leave evidence
-if it works, make it understandable
-```
-
-</details>
-
-<details>
-<summary>&nbsp;<code>/proc/pipeline</code> &nbsp;— how a repo gets made</summary>
-<br>
-
-```mermaid
-graph LR
-    A[Idea] --> B[Prototype]
-    B --> C{Interesting?}
-    C -- no --> D[Archive the lesson]
-    C -- yes --> E[Add architecture]
-    E --> F[Break it deliberately]
-    F --> G[Fix it properly]
-    G --> H[Ship the repo]
-    H --> A
-```
-
-</details>
-
-<details>
-<summary>&nbsp;<code>/var/log/honest.log</code> &nbsp;— the unpolished part</summary>
-<br>
-
-```
-warn  some of these repos are experiments, not products
-warn  some exist only because I wanted to know if the idea
-      could survive contact with reality
-warn  I am still learning, which is exactly why the
-      repositories keep changing
-info  that is the point
-```
-
-</details>
-
-<br>
-
-## `git log --graph`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ArhamChoudhary-ui/ArhamChoudhary-ui/output/github-contribution-grid-snake-dark.svg" width="100%" alt="contribution snake"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<code>shutdown -h now</code> &nbsp;·&nbsp; source available, curiosity non-optional
-
-</div>
