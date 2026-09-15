@@ -1,0 +1,50 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070B"/>
+      <stop offset="0.52" stop-color="#0A0F18"/>
+      <stop offset="1" stop-color="#071016"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="164" y1="78" x2="1018" y2="244" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.48" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+
+  <circle cx="1084" cy="67" r="84" fill="#22D3EE" fill-opacity="0.04"/>
+  <circle cx="1098" cy="62" r="52" stroke="#22D3EE" stroke-opacity="0.18"/>
+  <circle cx="1098" cy="62" r="31" stroke="#34D399" stroke-opacity="0.2"/>
+  <circle cx="1098" cy="62" r="5" fill="#34D399" filter="url(#glow)"/>
+
+  <path d="M73 243 C174 213, 246 264, 352 229 C457 194, 513 237, 613 202 C714 166, 777 217, 869 183 C951 153, 1023 178, 1129 126" stroke="url(#signal)" stroke-width="2" stroke-opacity="0.62"/>
+  <path d="M73 249 C174 219, 246 270, 352 235 C457 200, 513 243, 613 208 C714 172, 777 223, 869 189 C951 159, 1023 184, 1129 132" stroke="#22D3EE" stroke-width="10" stroke-opacity="0.035"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="72" y="69" fill="#64748B" font-size="15" letter-spacing="3">ARHAM / DEV CONSOLE</text>
+    <text x="72" y="137" fill="#F8FAFC" font-size="48" font-weight="700" letter-spacing="1">BUILD. BREAK. TRACE. SHIP.</text>
+    <text x="74" y="177" fill="#94A3B8" font-size="18">software experiments across devtools, AI, interfaces &amp; automation</text>
+
+    <rect x="72" y="210" width="176" height="32" rx="8" fill="#7C3AED" fill-opacity="0.12" stroke="#7C3AED" stroke-opacity="0.34"/>
+    <text x="88" y="231" fill="#C4B5FD" font-size="13">DEVTOOLS // ACTIVE</text>
+
+    <rect x="260" y="210" width="137" height="32" rx="8" fill="#22D3EE" fill-opacity="0.1" stroke="#22D3EE" stroke-opacity="0.34"/>
+    <text x="276" y="231" fill="#A5F3FC" font-size="13">AI // ACTIVE</text>
+
+    <rect x="409" y="210" width="196" height="32" rx="8" fill="#34D399" fill-opacity="0.1" stroke="#34D399" stroke-opacity="0.34"/>
+    <text x="425" y="231" fill="#A7F3D0" font-size="13">PROTOTYPES // LIVE</text>
+
+    <text x="72" y="286" fill="#475569" font-size="12">signal: 200 OK</text>
+    <text x="1018" y="286" fill="#475569" font-size="12">github.com/ArhamChoudhary-ui</text>
+  </g>
+</svg>
