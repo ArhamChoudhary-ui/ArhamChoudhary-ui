@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ArhamChoudhary-ui/ArhamChoudhary-ui/main/assets/boot.svg" width="100%" alt="ArhamOS boot sequence"/>
+<img src="./boot.svg" width="100%" alt="ArhamOS boot sequence"/>
 
 <br><br>
 
