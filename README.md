@@ -148,11 +148,11 @@ These aren't decorative. Each one opens a pre-filled issue on this repo. Fill it
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ArhamChoudhary-ui&show_icons=true&count_private=true&hide_border=true&bg_color=14101c&title_color=ffb000&icon_color=ffb000&text_color=c9bde0&ring_color=ffb000" alt="stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ArhamChoudhary-ui&show_icons=true&hide_border=true&bg_color=14101c&title_color=ffb000&icon_color=ffb000&text_color=c9bde0&ring_color=ffb000&cache_seconds=86400" alt="GitHub stats"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArhamChoudhary-ui&layout=compact&hide_border=true&bg_color=14101c&title_color=ffb000&text_color=c9bde0" alt="languages"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArhamChoudhary-ui&layout=compact&hide_border=true&bg_color=14101c&title_color=ffb000&text_color=c9bde0&cache_seconds=86400" alt="Top languages"/>
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=ArhamChoudhary-ui&hide_border=true&background=14101c&stroke=3a3150&ring=ffb000&fire=ff5f56&currStreakLabel=ffb000&sideLabels=c9bde0&dates=8a7ca8&sideNums=c9bde0&currStreakNum=ffe3a3" alt="streak"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=ArhamChoudhary-ui&hide_border=true&background=14101c&stroke=3a3150&ring=ffb000&fire=ff5f56&currStreakLabel=ffb000&sideLabels=c9bde0&dates=8a7ca8&sideNums=c9bde0&currStreakNum=ffe3a3" alt="GitHub streak"/>
 
 </div>
 
